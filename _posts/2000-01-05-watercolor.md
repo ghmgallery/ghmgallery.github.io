@@ -3,16 +3,33 @@ title: "Watercolors"
 bg: '#666'
 color: white
 fa-icon: plug
+image_path: http://www.ghmgallery.com/images
+thumb_path: http://www.ghmgallery.com/images
+images:
+  - image_file: PeeringIntoFall.jpg	
+    thumb_file: PeeringIntoFall_thumb.jpg
+    title: Peering into Fall
+    year: 2015
+    media: Watercolor
+    width: 30
+    height: 22
+    status: 
+    notes:
+  - image_file: PurplePerfection.jpg
+    thumb_file: PurplePerfection_thumb.jpg
+    title: Purple Perfection
+    year: 2016
+    media: Watercolor and pencil
+    width: 21
+    height: 13
+    status: Private Collection -- Prints Available
+    notes:
 ---
 <a name="watercolors"></a>
 
-
-| <a href="#acrylics">Acrylic &amp; Oil</a> | <a href="#watercolors">Watercolor</a> | <a href="#mixedMedium">Graphite and ink</a> |
-| -- | -- | -- |
-| <a href="#acrylics"><img width="300" height="189" 
-src="img/MarketEnProvenceGail_600dpi-300x189-108KB.jpg" 
-alt="Acrylic & Oil" /></a> | <a href="#watercolors"><img width="300" height="189" 
-src="img/PurplePerfection_600dpi-300x189-98KB.jpg" 
-alt="Watercolor" /></a> | <a href="#mixedMedium"><img width="300" height="189" 
-src="img/AGentleman_600dpi-300x189-21KB.jpg" 
-alt="Graphite and ink" /></a> |
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <a target="_blank" href="{{ page.image_path }}/{{ image.image_file }}">
+    <img src="{{ page.thumb_path }}/{{ image.thumb_file }}" alt="{{ image.title }}" {{ image.year }}, {{ image.width }}x{{ image.height }} {{ image.status }}  {{ image.notes }}"> "{{ image.title }}" {{ image.year }}, {{ image.width }}x{{ image.height }} {{ image.status }}  {{ image.notes }}</a><br /><br />
+  {% endfor %}
+</ul>
