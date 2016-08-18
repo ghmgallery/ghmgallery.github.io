@@ -5,3 +5,14 @@ color: white
 fa-icon: plug
 ---
 <a name="watercolors"></a>
+
+
+| <a href="#acrylics">Acrylic &amp; Oil</a> | <a href="#watercolors">Watercolor</a> | <a href="#mixedMedium">Graphite and ink</a> |
+| -- | -- | -- |
+| <a href="#acrylics"><img width="300" height="189" 
+src="img/MarketEnProvenceGail_600dpi-300x189-108KB.jpg" 
+alt="Acrylic & Oil" /></a> | <a href="#watercolors"><img width="300" height="189" 
+src="img/PurplePerfection_600dpi-300x189-98KB.jpg" 
+alt="Watercolor" /></a> | <a href="#mixedMedium"><img width="300" height="189" 
+src="img/AGentleman_600dpi-300x189-21KB.jpg" 
+alt="Graphite and ink" /></a> |

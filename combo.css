@@ -3,3 +3,10 @@
 {% include css/base.css %}
 {% include css/skeleton.css %}
 {% include css/main.css %}
+
+@media screen and (max-width: 640px) {
+	table {
+		overflow-x: auto;
+		display: block;
+	}
+}
