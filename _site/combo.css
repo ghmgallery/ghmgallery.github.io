@@ -524,10 +524,10 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-watercolors { border-color: #666; }
-  #watercolors { background-color: #666 !important; color: #f8f8f8; }
-  #watercolors a { color: #f8f8f8; }
-  #watercolors .sectiondivider { color: #666; }
+  nav .p-watercolor { border-color: #666; }
+  #watercolor { background-color: #666 !important; color: #f8f8f8; }
+  #watercolor a { color: #f8f8f8; }
+  #watercolor .sectiondivider { color: #666; }
 
   
   
