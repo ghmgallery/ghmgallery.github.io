@@ -39,6 +39,6 @@ images:
       {% if image.thumb_height %}height="{{ image.thumb_height }}"{% endif %}
     alt='{{ image.media_type }}: {{ image.title }}'> 
     <em>{{ image.title }}</em>. {{ image.year }}. {{ image.media_type }}. {{ image.media_width }}x{{ image.media_height }} inches. {{ image.status }} {{ image.notes }}
-    </a><br style="clear: both;" />
+    </a><br style="clear: both;" /><br />
   {% endfor %}
 </ul>
