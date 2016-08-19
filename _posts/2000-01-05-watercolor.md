@@ -34,10 +34,11 @@ images:
 <ul class="photo-gallery">
   {% for image in page.images %}
     <a target="_blank" href="{{ page.image_path }}/{{ image.image_file }}">
-    <img src="{{ page.thumb_path }}/{{ image.thumb_file }}"
+    <em>{{ image.title }}</em>. {{ image.year }}. {{ image.media_type }}. {{ image.media_width }}x{{ image.media_height }} inches. {{ image.status }} {{ image.notes }}
+    <img align="right" src="{{ page.thumb_path }}/{{ image.thumb_file }}"
       {% if image.thumb_width %}width="{{ image.thumb_width }}"{% endif %}
       {% if image.thumb_height %}height="{{ image.thumb_height }}"{% endif %}
     alt='{{ image.media_type }}: {{ image.title }}'> 
-    <em>{{ image.title }}</em>. {{ image.year }}. {{ image.media_type }}. {{ image.media_width }}x{{ image.media_height }} inches. {{ image.status }} {{ image.notes }}</a><br /><br />
+    </a><br style="clear: both;" />
   {% endfor %}
 </ul>
