@@ -93,3 +93,18 @@ $(document).ready(function (){
 
 });
 
+// Added for https://github.com/patrickkunka/mixitup
+$(function(){
+    $('#Container').mixItUp();
+});
+
+// Added for horizontal social share buttons:
+$.shareButtons({
+  effect  : 'slide-on-scroll',
+  buttons : {
+    'facebook':   { class: 'facebook', use: true, link: 'https://www.facebook.com/art.shelter.3', extras: 'target="_blank"' },
+    'phone':      { class: 'phone separated',    use: true, link: '+1425-220-2271' },
+    'email':      { class: 'email',    use: true, link: 'gail@ghmgallery.com' }
+  }
+11
+});

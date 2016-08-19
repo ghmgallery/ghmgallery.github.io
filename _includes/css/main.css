@@ -355,3 +355,8 @@ nav ul li:hover, nav ul li.active {
     column-count:         2;
   }
 }
+
+/* Added for https://github.com/patrickkunka/mixitup
+#Container .mix{
+    display: none;
+}

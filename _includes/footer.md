@@ -1,8 +1,6 @@
 
-
-Design by Tim O'Brien [t413.com](http://t413.com/)
+&copy; 2016 Gail Martinez. All rights reserved. 
 &mdash;
+Design by <a target="_blank" href="https://wilsonmar.github.io/">Wilson Mar</a> based on 
+the [open source]({{ site.source_link }}) 
 [SinglePaged theme](https://github.com/t413/SinglePaged)
-&mdash;
-this site is [open source]({{ site.source_link }})
-
