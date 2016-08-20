@@ -9,12 +9,14 @@ fa-icon: plug
 ## Graphite and ink (Mixed media)
 
 <!-- https://github.com/patrickkunka/mixitup -->
+TODO: Add logic and images to table.
 
+<button class="filter" data-filter=".category-4">Available</button>
 <button class="filter" data-filter=".category-1">Acrylics/Oil</button>
 <button class="filter" data-filter=".category-2">Watercolor</button>
 <button class="filter" data-filter=".category-3">Graphite/ink</button>
-<button class="sort" data-sort="my-order:asc">Ascending Order</button>
-<button class="sort" data-sort="my-order:desc">Descending Order</button>
+<button class="sort" data-sort="my-order:asc">Ascending Year</button>
+<button class="sort" data-sort="my-order:desc">Descending Year</button>
 
 <div id="Container">
     <div class="mix category-1" data-my-order="1"> a </div>
