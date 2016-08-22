@@ -1,0 +1,24 @@
+  - image_file: PeeringIntoFall.jpg
+    thumb_file: PeeringIntoFall_thumb.jpg
+    thumb_width: 60
+    thumb_height: 80
+    title: Peering into Fall
+    year: 2015
+    media_type: Watercolor
+    media_width: 30
+    media_height: 22
+    status: 
+    notes: 
+    tags: #orange #leaves #azelia #fallseason
+  - image_file: PurplePerfection.jpg
+    thumb_file: PurplePerfection_thumb.jpg
+    thumb_width: 120
+    thumb_height: 76
+    title: Purple Perfection
+    year: 2016
+    media_type: Watercolor and pencil
+    media_width: 21
+    media_height: 13
+    status: Private Collection -- Prints Available
+    notes: 
+    tags: #blue #grapes #donkey #cart #vinyard
