@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # This prints out a file (without the ---) to be included in front-matter yml of a .md file.
-# as the "Parser" described in https://wilsonmar.github.io/website-build-project-plan/
+# as the "Parser" described in https://wilsonmar.github.io/jam-stack-website-project-plan/
 # Usage: python portfolio_csv2txt.py  Portfolio.csv  Portfolio.yml
 # The input file to process defaults to "Porfolio.csv" if not specified in the argument calling this program.
 # The output is to STDOUT if an -o (output file) is not specified.

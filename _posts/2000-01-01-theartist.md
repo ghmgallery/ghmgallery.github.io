@@ -18,3 +18,16 @@ To create my art, I like to go out and take photos of objects and people around 
  	 	 
 > "My mind is a raging torrent, flooded with rivulets of thought cascading into a waterfall of creative alternatives" --Hedley Lamar in Blazing Saddles
 
+<form id="form1">
+<div id="rotator">
+<img alt="" src="http://ghmgallery.com/images/KillingTime_thumb.jpg" height="88">
+<img alt="" src="http://www.ghmgallery.com/images/AGentleman_thumb.jpg" height="88">
+<img alt="" src="http://www.ghmgallery.com/images/MrChickadee_thumb.jpg" height="88">
+<img alt="" src="http://www.ghmgallery.com/images/WhoosThere_thumb.jpg" height="88">
+<!--
+<img alt="" src="http://www.aspsnippets.com/images/Blue/Logo.png" height="500" />
+<img alt="" src="http://jqueryfaqs.com/images/Blue/Logo.png" height="500" />
+<img alt="" src="http://www.aspforums.net/images/blue/Logo.png" height="500" />
+-->
+</div>
+</form>

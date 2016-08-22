@@ -524,18 +524,10 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-watercolor { border-color: #666; }
-  #watercolor { background-color: #666 !important; color: #f8f8f8; }
-  #watercolor a { color: #f8f8f8; }
-  #watercolor .sectiondivider { color: #666; }
-
-  
-  
-  
-  nav .p-acrylics { border-color: #666; }
-  #acrylics { background-color: #666 !important; color: #f8f8f8; }
-  #acrylics a { color: #f8f8f8; }
-  #acrylics .sectiondivider { color: #666; }
+  nav .p-portfolio { border-color: #666; }
+  #portfolio { background-color: #666 !important; color: #f8f8f8; }
+  #portfolio a { color: #f8f8f8; }
+  #portfolio .sectiondivider { color: #666; }
 
   
   
