@@ -1,0 +1,15 @@
+# Site settings
+title: Gail H. Martinex Gallery
+email: wilsonmar@gmail.com
+description: Here's a site showing the integration between Snipcart and Jekyll. We hope you like it!
+baseurl: "/snipcart-jekyll-integration" # the subpath of your site, e.g. /blog/
+url: "http://ghmgallery.com" # the base hostname & protocol for your site
+twitter_username: ghmgallery
+github_username:  ghmgallery
+api_key: YzU0OWUyZDEtNjE0ZS00ZDUzLWJjMTgtMGY2OGI1MDVlZDAxNjM2MDc1MDcyOTYxODQzMjAw
+
+# Build settings
+markdown: kramdown
+collections:
+  products:
+    output: true
