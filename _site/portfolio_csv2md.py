@@ -1,13 +1,14 @@
 #!/usr/bin/python
-# This prints out a file (without the ---) to be included in front-matter yml of a .md file.
-# as the "Parser" described in https://wilsonmar.github.io/jam-stack-website-project-plan/
-# Usage: python portfolio_csv2txt.py  Portfolio.csv  Portfolio.yml
+# This prints out a whole md (markdown) file (with the --- front-matter) so Snapcart can reference it.
+# This is the "Parser" described in https://wilsonmar.github.io/jam-stack-website-project-plan/
+# Usage: python portfolio_csv2md.py  Portfolio.csv  Portfolio.yml
 # The input file to process defaults to "Porfolio.csv" if not specified in the argument calling this program.
-# The output is to STDOUT if an -o (output file) is not specified.
+# The Portfolio.csv is a spreadsheet containing one row for each work of art.
+# The output is to STDOUT if an output file is not specified.
 # The output rewrites any existing file of the same name.
-# This is store in https://github.com/wilsonmar/python-templates
+# This is stored in https://github.com/wilsonmar/python-templates
 
-# Begin timer:
+# Begin timer (used by all my Python batch programs):
 import timeit
 start_time = timeit.default_timer()
 
@@ -48,8 +49,8 @@ if __name__ == "__main__":
       file_out = file_in + '.txt'
 
 # Send STDOUT to a file:
-stdout = sys.stdout  # remember the handle to the real standard output.
-sys.stdout=open( file_out,"w")
+# stdout = sys.stdout  # remember the handle to the real standard output.
+# sys.stdout=open( file_out,"w")
 
 
 # Print in yml format:
@@ -60,9 +61,11 @@ with open(file_in, 'rU') as f:
     reader = csv.reader(f, delimiter=',')
     first_line = f.readline() # pull out first line - do not print 
     for i in reader:
-        # print row
-         print \
-         '  - '+'image_file: '+i[7] + \
+        fo.open(file_out,"w") # in current folder.
+        write( '---' + \
+         '\n#' + \
+         '\n---' + \
+         '\n  - '+'image_file: '+i[7] + \
          '\n    thumb_file: '+i[12] + \
          '\n    thumb_width: '+i[13] + \
          '\n    thumb_height: '+i[14] + \
@@ -74,12 +77,13 @@ with open(file_in, 'rU') as f:
          '\n    status: '+i[6] + \
          '\n    notes: '+i[16] + \
          '\n    tags: '+i[17] 
+         ) #auto-close by write.
+        fo.close()
 
 # Close the file every time:
-sys.stdout.close()
+# sys.stdout.close()
+# sys.stdout = stdout # Restore regular stdout.
 
-
-sys.stdout = stdout # Restore regular stdout.
 # End timer:
 elapsed = timeit.default_timer() - start_time
 print "# "+ time.strftime('%Y-%m-%d-%H:%M (local time)') +' '+ sys.argv[0] +" END: ran for "+ "{:.2f}".format(elapsed * 1000 )+ ' secs.'

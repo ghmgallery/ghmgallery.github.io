@@ -39,3 +39,7 @@ colors:
 kramdown:
   auto_ids:  false
 
+# For Snipcart:
+api_key: 
+collections:
+    - products
