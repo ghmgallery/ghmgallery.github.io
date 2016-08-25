@@ -73,6 +73,8 @@ with open(file_in, 'rU') as f:
         '\n image: '+ path_out +'/'+ i[7] + \
         '\n layout: productdetails' + \
         '\n---' + \
+        '\n<img src="'+ path_out +'/'+ i[7]+'"' + \ 
+        '\n    alt="'+i[1]+'"><br />' + \
         '\n<strong>'+i[1]+'</strong><br />' \
         '\n '+i[2]+'. '+i[3]+'. '+i[4]+'x'+i[5]+' inches.'+'<br />' + \
         '\n '+i[6]+'<br />' + \
