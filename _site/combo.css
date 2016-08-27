@@ -516,14 +516,6 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-mixedmedia { border-color: #666; }
-  #mixedmedia { background-color: #666 !important; color: #f8f8f8; }
-  #mixedmedia a { color: #f8f8f8; }
-  #mixedmedia .sectiondivider { color: #666; }
-
-  
-  
-  
   nav .p-portfolio { border-color: #666; }
   #portfolio { background-color: #666 !important; color: #f8f8f8; }
   #portfolio a { color: #f8f8f8; }
