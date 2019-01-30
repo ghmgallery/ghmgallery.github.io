@@ -94,6 +94,6 @@ with open(file_in, 'rU') as f:
 # End timer:
 elapsed = (timeit.default_timer() - start_time) * 1000
 print "# "+ time.strftime('%Y-%m-%d-%H:%M (local time)') +' '+ sys.argv[0] +" END: ran for "+ "{:.2f}".format(elapsed)+ ' secs.'
-# https://mkaz.tech/python-string-format.html
+# https://mkaz.blog/code/python-string-format-cookbook/
 
 print "# "+ time.strftime('%Y-%m-%d-%H:%M (local time)') +' '+ sys.argv[0] +" Secs per item: "+ "{:.2f}".format(elapsed / outrowcount )+ ' secs.'
